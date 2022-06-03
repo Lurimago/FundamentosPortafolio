@@ -1,7 +1,12 @@
+
 /*============================================
         PANTALLA TAMAÑO MAXIMO 599
 =============================================*/
 @media screen and (max-width: 599px) {
+.hidden {
+    display: none !important;
+}
+    
 * {
     margin: 0;
     padding: 0;
@@ -31,11 +36,9 @@ nav {
     padding: .5rem 1.25rem;
     height: 55px;
     /* position: fixed;
-    left: 48%; */
-    
+    left: 48%; */    
     
 }
-
 nav>label>img {
     width: 20px;
     filter: invert(100%);
@@ -69,21 +72,16 @@ input#menu-hamburguesa~ul {
     padding: 2rem 1rem;
     z-index: 1;
     text-decoration: none;
+    right: 0; 
 }
 nav>ul>li>a:hover {
     border-color: #34b0be;
 }
-
-
-input#menu-hamburguesa:checked~ul {
+.aver{
+    position:fixed;
     right: 0;
+    z-index: 1;
 }
-
-.menuHamburguesa{
-
-    right: 0;
-}
-
 
 /*============================================
         PANTALLAS MENORES A 600
@@ -264,9 +262,8 @@ input#menu-hamburguesa:checked~ul {
     grid-template-columns: auto auto 275px auto auto;
     grid-template-rows: 200px auto auto;
     align-items: center;
-
-
 }
+
 
 .circulo .uno {
     grid-column: 1/4;
@@ -488,6 +485,7 @@ article>p {
     grid-template-rows: auto auto auto auto auto auto ;
     /*display: flex;
     position: relative;*/
+
 }
 
 .aside1 h3 {

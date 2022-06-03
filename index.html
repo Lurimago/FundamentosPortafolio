@@ -14,33 +14,59 @@
 <!-------------BODY------------>
 <body>
 
-    <header>
-
+    <header >
+<div class="aver">
         <nav>
-            <input class="menuHamburguesa" type="checkbox" id="menu-hamburguesa">
+            <input class="menuHamburguesa" type="checkbox" id="menu-hamburguesa" onclick="ocultar();">
 
             <label for="menu-hamburguesa">
                 <img src="íconos/menu 1.svg" alt="">
             </label>
          
-            <ul>
+            <ul id="listas" class="hidden">
                 <li>
-                    <a id="menubtn" href="#menu">Home</a>
+                    <a id="menubtn" href="#menu" "javascript:void(0);" onclick="ocultar();">Home</a>
+                    <script type="text/javascript">
+                        function ocultar() {
+                            document.getElementById('listas').classList.toggle('hidden');
+                        }
+                    </script>
                 </li>
                 <li>
-                    <a id="menubtn1" href="#menu1">Acerca de mi</a>
+                    <a id="menubtn1" href="#menu1" "javascript:void(0);" onclick="ocultar();">Acerca de mi</a>
+                    <script type="text/javascript">
+                        function ocultar() {
+                            document.getElementById('listas').classList.toggle('hidden');
+                        }
+                    </script>
                 </li>
                 <li>
-                    <a id="menubtn2" href="#menu2">Mis habilidades</a>
+                    <a id="menubtn2" href="#menu2""javascript:void(0);" onclick="ocultar();">Mis habilidades</a>
+                    <script type="text/javascript">
+                        function ocultar() {
+                            document.getElementById('listas').classList.toggle('hidden');
+                        }
+                    </script>
                 </li>
                 <li>
-                    <a id="menubtn3" href="#menu3">Mi Portafolio</a>
+                    <a id="menubtn3" href="#menu3""javascript:void(0);" onclick="ocultar();">Mi Portafolio</a>
+                    <script type="text/javascript">
+                        function ocultar() {
+                            document.getElementById('listas').classList.toggle('hidden');
+                        }
+                    </script>
                 </li>
                 <li>
-                    <a id="menubtn4" href="#menu4">Contacto</a>
+                    <a id="menubtn4" href="#menu4""javascript:void(0);" onclick="ocultar();">Contacto</a>
+                    <script type="text/javascript">
+                        function ocultar() {
+                            document.getElementById('listas').classList.toggle('hidden');
+                        }
+                    </script>
                 </li>
             </ul>
         </nav>
+</div>
     </header>
 <!--==============================================
 ====================HOME==========================
@@ -68,7 +94,7 @@
             <img id="twitter" src="íconos/ant-design_twitter-outlined.svg" alt="">
         </div>
 
-
+        
     </section>
 
     <section class="rectangulo1">
