@@ -1,0 +1,224 @@
+<!DOCTYPE html>
+<html lang="en">
+<!-------------HEAD------------>
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mi Portafolio</title>
+    <link rel="stylesheet" href="css/styles.css" type="text/css">
+    <link rel="stylesheet" href="css/tablet.css" type="text/css">
+    <link rel="stylesheet" href="css/desktop.css" type="text/css">
+    <link href="https://fonts.googleapis.com/css?family=Montserrat" rel="stylesheet"> 
+</head>
+<!-------------BODY------------>
+<body>
+
+    <header >
+<div class="aver">
+        <nav>
+            <input class="menuHamburguesa" type="checkbox" id="menu-hamburguesa" onclick="ocultar();">
+
+            <label for="menu-hamburguesa">
+                <img src="íconos/menu 1.svg" alt="">
+            </label>
+         
+            <ul id="listas" class="hidden">
+                <li>
+                    <a id="menubtn" href="#menu" "javascript:void(0);" onclick="ocultar();">Home</a>
+                    <script type="text/javascript">
+                        function ocultar() {
+                            document.getElementById('listas').classList.toggle('hidden');
+                        }
+                    </script>
+                </li>
+                <li>
+                    <a id="menubtn1" href="#menu1" "javascript:void(0);" onclick="ocultar();">Acerca de mi</a>
+                    <script type="text/javascript">
+                        function ocultar() {
+                            document.getElementById('listas').classList.toggle('hidden');
+                        }
+                    </script>
+                </li>
+                <li>
+                    <a id="menubtn2" href="#menu2""javascript:void(0);" onclick="ocultar();">Mis habilidades</a>
+                    <script type="text/javascript">
+                        function ocultar() {
+                            document.getElementById('listas').classList.toggle('hidden');
+                        }
+                    </script>
+                </li>
+                <li>
+                    <a id="menubtn3" href="#menu3""javascript:void(0);" onclick="ocultar();">Mi Portafolio</a>
+                    <script type="text/javascript">
+                        function ocultar() {
+                            document.getElementById('listas').classList.toggle('hidden');
+                        }
+                    </script>
+                </li>
+                <li>
+                    <a id="menubtn4" href="#menu4""javascript:void(0);" onclick="ocultar();">Contacto</a>
+                    <script type="text/javascript">
+                        function ocultar() {
+                            document.getElementById('listas').classList.toggle('hidden');
+                        }
+                    </script>
+                </li>
+            </ul>
+        </nav>
+</div>
+    </header>
+<!--==============================================
+====================HOME==========================
+===============================================-->
+
+    <section id="menu" class="circulo">
+        <div class="uno">
+            <h2 id="titulo">Soy</h2>
+            <h1>Luis</h1>
+            <hr>
+            <h2>Programador</h2>
+        </div>
+
+        <div class="dos"></div>
+
+        <div class="tres">
+            <h3>0 años</h3>
+            <h4>experiencia</h4>
+        </div>
+
+        <img id="foto" src="img/muchacho.png" alt="">
+        <div class="redes">
+            <img id="linkenlind" src="íconos/cib_linkedin-in.svg" alt="">
+            <img id="instagram" src="íconos/ant-design_instagram-filled.svg" alt="">
+            <img id="twitter" src="íconos/ant-design_twitter-outlined.svg" alt="">
+        </div>
+
+        
+    </section>
+
+    <section class="rectangulo1">
+
+        <div class="rectangulo">
+
+            <img id="google" src="img/akar-icons_google-fill.png" alt="">
+            <img id="amazon" src="img/ant-design_amazon-outlined.png" alt="">
+            <img id="spotify" src="img/bi_spotify.png" alt="">
+
+        </div>
+
+    </section>
+<!--==============================================
+====================ACERCA DE MI==================
+===============================================-->
+    <article id="menu1">
+
+        <h3>Acerca de mi</h3>
+        <p> Ing. De Sistemas con experiencia en Soporte, Mesa de Ayuda y QA Manual,
+            y actualmente estudiante en ACADEMLO - DESARROLLO WEB FULL-STACK Y CIENCIAS DE COMPUTACIÓN,
+            abriéndose camino en el apasionante mundo de la programación.
+        
+        </p>
+
+    </article>
+<!--==============================================
+====================SERVICIOS=====================
+===============================================-->
+    <aside class="aside1">
+        <h3>Servicios</h3>
+        <div class="servicios">
+        <div class="servicio1">
+            <i id="serv1"> <img src="íconos/iconoir_design-pencil.svg" alt=""></i>
+            <h4>UX/UI Design</h4>
+            <h6>Desde el diseño hasta implementación del desarrollo</h6>
+
+        </div>
+        <div class="servicio2">
+            <i id="serv2"> <img src="íconos/majesticons_speakerphone-line.svg" alt=""> </i>
+            <h4>Marketing</h4>
+            <h6>Campañas de Marketing</h6>
+        </div>
+        <div class="servicio3">
+            <i id="serv3"><img src="íconos/feather_search.svg" alt=""></i>
+            <h4>Research</h4>
+            <h6>Desde el diseño hasta implementación del desarrollo</h6>
+
+        </div>
+
+    </div>
+    </aside>
+<!--==============================================
+====================MIS HABILIDAES================
+===============================================-->
+    <aside id="menu2" class="aside2">
+        <h3 class="habilidades">Mis habilidades</h3>
+        <div class="barrasHabilidades">
+            <h4 class="habilidad1">HTML</h4>
+            <h4 class="porcentaje1"> 60%</h4>
+            <div class="progress-bar1" style="--width:60" data-label=""> </div>
+            <h4 class="habilidad2">CSS</h4>
+            <h4 class="porcentaje2"> 65%</h4>
+            <div class="progress-bar2" style="--width:70" data-label=""> </div>
+            <h4 class="habilidad3">JavaScript</h4>
+            <h4 class="porcentaje3"> 50%</h4>
+            <div class="progress-bar3" style="--width:50" data-label=""> </div>
+            <h4 class="habilidad4">PHP</h4>
+            <h4 class="porcentaje4"> 65%</h4>
+            <div class="progress-bar4" style="--width:70" data-label=""> </div>
+            <h4 class="habilidad5">SQL</h4>
+            <h4 class="porcentaje5"> 50%</h4>
+            <div class="progress-bar5" style="--width:50" data-label=""> </div>
+    </div>
+    </aside>
+<!--==============================================
+====================MI PORTAFOLIO=================
+===============================================-->
+    <aside id="menu3" class="aside3">
+        <h3>Mi portafolio</h3>
+
+        <div class="slider">
+            <ul>
+                <li><img id="experiencia1" src="img/proyecto1.jpg" alt=""></li>
+                <li><img id="experiencia2" src="img/proyecto2.jpg" alt=""></li>
+                <li><img id="experiencia3" src="img/proyecto3.jpg" alt=""></li>
+            </ul>
+        </div>
+
+    </aside>
+<!--==============================================
+====================CONTACTO======================
+===============================================-->
+    <aside id="menu4" class="aside4">
+
+        <h3>Contacto</h3>
+     <div class="asidecont4">
+        <div class="iconphone">
+
+            <i id="phone"><img src="íconos/phone 3.svg" alt=""></i>
+            <h4>Numero Celular</h4>
+            <h6>+51 929 166 766</h6>
+
+        </div>
+
+        <div class="iconemail">
+
+            <i id="email"><img src="íconos/mail 3.svg" alt=""></i>
+            <h4>Email</h4>
+            <h6>luisricardomarcelogomez@gmail.com</h6>
+
+        </div>
+    </div>
+
+    </aside>
+<!--==============================================
+====================FOOTER========================
+===============================================-->
+    <footer class="col-lg-6 col-md-6 col-sm-6 ">
+        <img class="logoacademlo" src="img/academlo.png" alt="">
+        <h6 class="corazon"> Hecho con ❤ en Academlo </h6>
+        <h6 class="lurimago"> © Lurimago 2022 </h6>
+    </footer>
+
+</body>
+ 
+</html>
