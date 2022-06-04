@@ -133,6 +133,7 @@ nav>ul>li>a:hover {
     grid-template-columns: auto auto 275px auto auto;
     grid-template-rows: 200px auto auto;
     align-items: center;
+    border-top: 50px;
 
 
 }
@@ -464,7 +465,9 @@ nav {
     padding: 4%;
     object-fit: contain;
 }
-
+#menu1{
+    margin-top: 50px;
+}
 article {
     grid-column: 1/6;
     grid-row: 4/5;
@@ -478,7 +481,8 @@ article>h3 {
     font-size: 32px;
     font-weight: 400;
     text-align: center;
-    margin-top: 55px;
+    margin-top: 10px;
+    margin-bottom: 15px;
 }
 
 article>p {
@@ -486,7 +490,7 @@ article>p {
     font-size: 16px;
     font-weight: normal;
     text-align: center;
-    margin-top: 5px;
+    margin-top: 15px;
 
 }
 
@@ -510,7 +514,8 @@ article>p {
     text-align: center;
     grid-column: 3/4;
     grid-column: 3/4; 
-    margin-bottom: 40px;
+    margin-bottom: 50px;
+    margin-top: 50px;
     
 }
 .aside1 .servicios {
@@ -932,6 +937,7 @@ aside .servicio3 h6{
     font-weight: 400;
     grid-column: 3/4;
     margin-top: 55px;
+    margin-bottom: 45px;
     /* margin-left: 40px; */
 
 }
