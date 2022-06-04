@@ -50,7 +50,7 @@
     }
     
     input#menu-hamburguesa~ul {
-        background-color: #242635;
+        background-color: #03051C;
         list-style: none;
         position: fixed;
         width: 100%;
@@ -208,7 +208,12 @@
         display: flex;
     
     }
-    
+    nav {
+
+        width: 100vw;
+        background-color: #272837;  
+        
+    }
     
     #foto {
     

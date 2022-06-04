@@ -34,6 +34,8 @@ nav {
     align-items: center;
     padding: .5rem 1.25rem;
     height: 55px;
+    width: 100vw;
+    background-color: #272837;
     /* position: fixed;
     left: 48%; */    
     
@@ -251,7 +253,18 @@ nav>ul>li>a:hover {
 @media screen and (min-width: 400px){
     
 
-
+nav {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        padding: .5rem 1.25rem;
+        height: 55px;
+        width: 100vw;
+        background-color: #272837;
+        /* position: fixed;
+        left: 48%; */    
+        
+    }
 .circulo {
 
     grid-column: 1/6;
