@@ -478,7 +478,7 @@ article>h3 {
     font-size: 32px;
     font-weight: 400;
     text-align: center;
-    margin-bottom: 40px;
+    margin-top: 55px;
 }
 
 article>p {
@@ -486,6 +486,7 @@ article>p {
     font-size: 16px;
     font-weight: normal;
     text-align: center;
+    margin-top: 5px;
 
 }
 
@@ -676,7 +677,7 @@ aside .servicio3 h6{
     color: #34B0BE;
     text-align: center;
     margin-bottom: 70px;
-    margin-top: 40px;
+    margin-top: 55px;
 }
 
 .barrasHabilidades{
@@ -930,7 +931,7 @@ aside .servicio3 h6{
     font-size: 32px;
     font-weight: 400;
     grid-column: 3/4;
-    margin-bottom: 40px;
+    margin-top: 55px;
     /* margin-left: 40px; */
 
 }
@@ -1023,7 +1024,7 @@ animation: cambio 3s infinite alternate;
     color: #34B0BE;
     text-align: center;
     /* margin-top: 10px; */
-    margin-bottom: 40px;
+    margin-bottom: 30px;
 
 
 }
@@ -1105,6 +1106,7 @@ animation: cambio 3s infinite alternate;
     background-color: #03051C;
     text-align: center;
     color: #ffffff;
+    margin-top: -8%;
 }
 .logoacademlo{
     width: 120px;
