@@ -144,7 +144,6 @@ nav>ul>li>a:hover {
     position: absolute;
     margin-left: 8px;
     margin-top: -120px;
-
 }
 
 .circulo .uno h1 {
@@ -223,8 +222,7 @@ nav>ul>li>a:hover {
     margin-top: 29px;
 }
 
-#linkenlind {
-
+.link{
     background-color: #D1ceca;
     border-radius: 50%;
     width: 35px;
@@ -370,15 +368,13 @@ nav {
     margin-left: 40px;
     margin-top: 29px;
 }
-
-#linkenlind {
+.link{
 
     background-color: #D1ceca;
     border-radius: 50%;
     width: 35px;
     height: 35px;
     padding: 4px;
-
 }
 
 #instagram {
@@ -526,13 +522,16 @@ article>p {
     grid-row: 2/5;
     display: flex; 
     display: grid;
-    grid-template-columns: 240px 15% 240px 15% 240px 15%; 
+    grid-template-columns: 205px 15% 205px 15% 205px 15%; 
 
 
 } 
 
 .aside1 .servicios::-webkit-scrollbar {
     width: 12px;
+    border-style: solid;
+    margin-top: 10%;
+
 }
 
 .aside1 .servicios::-webkit-scrollbar-track {

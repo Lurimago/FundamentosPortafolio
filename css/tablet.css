@@ -224,14 +224,13 @@
         margin-top: 34px;
     }
     
-    #linkenlind {
-    
+
+    .link{
         background-color: #D1ceca;
         border-radius: 50%;
         width: 35px;
         height: 35px;
-        padding: 6px;
-    
+        padding: 6px; 
     }
     
     #instagram {
@@ -905,7 +904,7 @@
          /* margin-left: 20%; */
          text-align: center;
          background: url(/svg/elipse.svg) no-repeat white;
-         background-position: 0 -30px;
+         background-position: 0 -50px;
          background-size: 100% 100%;
     
     
